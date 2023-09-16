@@ -2,7 +2,7 @@
   "name": "ETH-NFT-Game",
   "version": "1.0.0",
   "description": "Creating NFT Collections",
-  "private": true,
+  "type": "module",
   "workspaces": {
     "packages": [
       "packages/*"
@@ -12,5 +12,6 @@
     "contract": "yarn workspace contract",
     "client": "yarn workspace client",
     "test": "yarn workspace contract test"
-  }
+  },
+  "packageManager": "yarn@3.6.3"
 }
